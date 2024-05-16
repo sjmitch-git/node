@@ -1,0 +1,21 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Various Node.js projects",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjmitch-git/node.git"
+  },
+  "keywords": [
+    "Node.js"
+  ],
+  "author": "Stephen Mitchell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjmitch-git/node/issues"
+  },
+  "homepage": "https://github.com/sjmitch-git/node#readme"
+}
