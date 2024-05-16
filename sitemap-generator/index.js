@@ -2,8 +2,8 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
 
-const baseURL = "https://example.com";
-const sitemapFilename = "sitemap.xml";
+const baseURL = "https://example.com"; // add your URL
+const sitemapFilename = "sitemap.xml"; // saved file name
 
 async function fetchHTML(url) {
   try {
@@ -21,6 +21,7 @@ function extractLinks(html) {
   $("a").each((index, element) => {
     const href = $(element).attr("href");
     if (href && !href.startsWith("https://")) {
+      // ignores external links
       links.push(baseURL + href);
     }
   });
