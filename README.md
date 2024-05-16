@@ -6,7 +6,7 @@ Node.js is an open source server environment. It allows you to run JavaScript on
 
 ### [Server](/server)
 
-Creates a server running on `http://localhost:8080`.
+Creates a `http` server running on `http://localhost:8080`.
 
 ### [Sitemap Generator](/sitemap-generator)
 

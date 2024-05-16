@@ -6,3 +6,8 @@ http
     res.end("Hello World!");
   })
   .listen(8080);
+
+(async () => {
+  const open = await import("open");
+  open.default("http://localhost:8080");
+})();

@@ -1,6 +1,6 @@
 # Server
 
-Creates a server running on `http://localhost:8080`.
+Creates a `http` server running on `http://localhost:8080`.
 
 ## Instructions
 
@@ -10,4 +10,4 @@ In the terminal run this command:
 
 ## Output
 
-Open browser at `http://localhost:8080`.
+Opens browser at `http://localhost:8080`.
